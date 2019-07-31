@@ -122,6 +122,10 @@ a:hover, i:hover {
   color: white;
 }
 
+#nav  li {
+  margins: 20px;
+}
+
 .inner-content {
     display: flex;
 /*    box-shadow: 0px 0px 35px 24px rgba(124,10,255,0.34);
