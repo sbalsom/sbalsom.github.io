@@ -116,6 +116,7 @@ a:hover, i:hover {
 #nav {
   background: #99b19c;
   padding: 0;
+  display: flex;
 }
 
 #nav a:hover {
@@ -123,7 +124,7 @@ a:hover, i:hover {
 }
 
 #nav  li {
-  margins: 20px;
+ 
 }
 
 .inner-content {
