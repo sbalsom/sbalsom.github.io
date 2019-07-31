@@ -7,7 +7,7 @@ sand : #d7d1c9
 sage: #99b19c
 brown : #65655E
 beige : #f7f0e8
-font-family: 'Fira Code', monospace;
+font-family: 'Fira Code', monospace; 400,600,700
 
 */
 
@@ -87,7 +87,7 @@ p {
 }
 
 a {
-  font-family: 'Fira Code 600',  monospace;
+  font-family: 'Fira Code 700',  monospace;
   text-decoration: none;
   color: black;
 }
