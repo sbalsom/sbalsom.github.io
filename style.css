@@ -80,6 +80,7 @@ body {
 
 h1 {
   font-family: 'Lacquer', sans-serif;
+  font-size: 50px;
 }
 
 p {
@@ -117,6 +118,9 @@ a:hover, i:hover {
   background: #99b19c;
   padding: 0;
   display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
 }
 
 #nav a:hover {
@@ -124,7 +128,7 @@ a:hover, i:hover {
 }
 
 #nav  li {
- 
+
 }
 
 .inner-content {
