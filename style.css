@@ -7,11 +7,13 @@ sand : #d7d1c9
 sage: #99b19c
 brown : #65655E
 beige : #f7f0e8
+font-family: 'Fira Code', monospace;
+
 */
 
 
 body {
-  font-family: 'Darker Grotesque', sans-serif;
+  font-family: 'Fira Code', monospace;
   background-color: #f7f0e8;
 }
 
