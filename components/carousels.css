@@ -6,5 +6,6 @@
 
 .carousel-2 img, .carousel-1 img  {
   width: 100%;
+  object-fit: cover;
 
 }
