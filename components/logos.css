@@ -1,9 +1,9 @@
 .logo-top {
-width: 150px;
+width: 100%;
 }
 
 .header-corner {
-  padding: 25% 0 0 10%;
+  padding: 25% 0 0 0;
 }
 
 @media screen and (max-width: 960px) {
