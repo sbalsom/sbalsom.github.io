@@ -4,10 +4,6 @@ svg {
       margin:16px;
     }
 
-.header-corner {
-  padding: 25% 0 0 0;
-}
-
 @media screen and (max-width: 960px) {
   .header-corner {
     background-image: url("/images/rectangle-2.png");
