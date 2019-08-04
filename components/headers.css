@@ -25,3 +25,9 @@
 
   }
 }
+@media screen and (max-width: 960px) {
+  .header-banner {
+    background-image: url("/images/rectangle-2.png");
+    background-repeat: no-repeat;
+  }
+}
