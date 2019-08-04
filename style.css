@@ -1,34 +1,25 @@
 /*
 fonts for reference :
 font-family: 'Poiret One', cursive;
-font-family: 'Monoton', cursive;
-font-family: 'Cutive Mono', monospace;
-font-family: 'Press Start 2P', cursive;
-font-family: 'Forum', cursive;
-font-family: 'Coda', cursive;
-font-family: 'Gruppo', cursive;
 font-family: 'Raleway Dots', cursive;
+font-family: 'Raleway', sans-serif; 500,700
 */
 @import url("components/footers.css");
 @import url("components/logos.css");
 @import url("components/carousels.css");
 @import url("components/avatars.css");
 @import url("components/headers.css");
+/*importing fonts
+*/@import url('https://fonts.googleapis.com/css?family=Poiret+One|Raleway+Dots|Raleway:500,700&display=swap');
+
 
 body {
-  font-family: 'Raleway Dots', cursive;
+  font-family: 'Poiret One', cursive;
   background-color: white;
 }
 
-
-
 h1 {
-font-family: 'Poiret One', cursive;
   font-size: 50px;
-}
-
-h3 {
-  font-family: 'Poiret One', cursive;
 }
 
 p {

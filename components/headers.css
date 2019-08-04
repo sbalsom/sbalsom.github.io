@@ -1,9 +1,26 @@
 .header-banner {
   padding: 25% 0 0 0;
+  margin:0 0 16px 0;
 }
+
 
 .header-nav a {
   margin:0 0 16px 0;
-  font-size: 0.75em;
+  font-size: 1em;
+  text-decoration: none;
+  font-family: 'Raleway Dots', 'Arial', sans-serif;
+}
 
+.header-nav a:hover {
+  color: #BEDFDC;
+}
+
+@media(max-width: 400px) {
+  .header-nav {
+    flex-flow:column;
+  }
+  .header-nav a {
+    text-align:center;
+
+  }
 }
