@@ -1,6 +1,8 @@
-.logo-top {
-  width: 150px;
-}
+svg {
+      width:150px;
+      height:150px;
+      margin:16px;
+    }
 
 .header-corner {
   padding: 25% 0 0 0;
