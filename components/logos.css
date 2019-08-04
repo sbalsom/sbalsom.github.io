@@ -3,10 +3,3 @@ svg {
       height:150px;
       margin:16px;
     }
-
-@media screen and (max-width: 960px) {
-  .header-corner {
-    background-image: url("/images/rectangle-2.png");
-    background-repeat: no-repeat;
-  }
-}
