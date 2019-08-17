@@ -5,7 +5,7 @@ const about = `<div class="fix-me-about"><h1>About Me</h1></div>
           <p>As a former literature major and English teacher in France for many years, I also love reading source code and finding out how the libraries I use actually work. Research has always been one of my greatest passions, and I bring this enthusiasm to coding. I always need to be challenged to learn more!</p>
           <p>In a workpace environment, I prize good communication and empathetic listening. I will always take the time to explain what I'm doing, and I don't hesitate to ask questions so that the work I do can truly meet the needs of my team or my particular client.</p>
           `
-const contact = `<div class="fix-me-contact"><h1>Contact</h1></div>
+const contact = `<div class="fix-me-contact"><h1>Contact Me:</h1></div>
           <p>sbalsom@protonmail.com</p>
           <p>+33 7 69 45 47 53</p>`
 
