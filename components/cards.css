@@ -5,11 +5,14 @@
   overflow:scroll;
   padding-bottom:200px;
   width:100%;
+  display:flex;
+  justify-content:center;
 
 }
 
 
 .display-card {
+  max-width:700px;
   align-self: center;
   display:flex;
   margin: 10vh 10vh;
