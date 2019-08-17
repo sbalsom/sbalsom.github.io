@@ -36,11 +36,14 @@
 }
 .cd-panel__content {
 overflow: scroll;
+padding-left: 30px;
+
 }
 
 .cd-panel__content p {
   text-align:justify;
   max-width:700px;
+  padding-right:20px;
   }
 
 .cd-panel-contact .cd-panel__container {
@@ -49,6 +52,17 @@ overflow: scroll;
 
 .cd-panel-about .cd-panel__container {
   background-color:rgb(215, 180, 255);
+}
+
+.cd-panel-about h1, .cd-panel-about p {
+  color:#4c074c;
+
+}
+
+.cd-panel-contact h1, .cd-panel-contact p {
+
+    color:#6b1b1b;
+
 }
 
 .cd-panel--from-right .cd-panel__container {
