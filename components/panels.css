@@ -44,7 +44,7 @@ overflow: scroll;
   }
 
 .cd-panel-contact .cd-panel__container {
-  background-color:#ff47f6;
+  background-color:rgb(239, 224, 206);
 }
 
 .cd-panel-about .cd-panel__container {
@@ -122,15 +122,14 @@ overflow: scroll;
     padding: 0 2vh;
   }
 
-
   .cd-panel-about .cd-panel__content p {
     font-size: 0.9em;
   }
 
   .cd-panel-contact .cd-panel__content p {
-    font-size:2em;
+    font-size:4em;
   }
   .cd-panel-contact .cd-panel__container {
-  background-color:rgb(239, 224, 206);
+  background-color:#ff47f6;
 }
   }
