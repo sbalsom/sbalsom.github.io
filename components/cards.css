@@ -48,9 +48,8 @@
 
 @media(max-width: 700px) {
   .inner-content {
-
    position:absolute;
-  top: 300px;
+  top: 200px;
 }
 
 }

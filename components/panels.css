@@ -3,12 +3,13 @@
   /*...*/
   visibility: hidden;
   transition: visibility 0s 1s;
-/*  overflow: scroll;*/
+ overflow: scroll;
 }
 
 .cd-panel-about.cd-panel--is-visible {
   visibility: visible;
   transition: visibility 0s 0s;
+
 
 }
 
@@ -35,8 +36,9 @@
 
 }
 .cd-panel__content {
-overflow: scroll;
-padding-left: 30px;
+  overflow: scroll;
+  padding-left: 30px;
+  padding-bottom: 50vh;
 
 }
 
@@ -108,7 +110,7 @@ padding-left: 30px;
   }
 
   .cd-panel__content {
-    padding-bottom: 100px;
+    padding-bottom: 100vh;
     padding-top:100px;
   }
 
