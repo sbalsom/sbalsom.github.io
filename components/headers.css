@@ -86,7 +86,7 @@
   }
 
   .header-nav {
-    height: 25vh;
+    height: 30vh;
     flex-direction: column;
   }
 
@@ -105,5 +105,6 @@
   .header-nav a {
     font-size: 5em;
     margin:0 0 8px 0;
+    color:black;
   }
     }
