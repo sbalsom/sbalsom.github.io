@@ -3,7 +3,7 @@
 const about = `<div class="fix-me-about"><h1>About Me</h1></div>
           <p>Recently graduated from Le Wagon coding bootcamp in Berlin, I'm a junior developer with a focus on back-end development, web apps, and software development. I love using MVC and schema visualisation to get the behind-the-scenes magic of a project running, and I'm particularly fond of Ruby on Rails, the framework I've learned to use for the majority of my projects.</p>
           <p>As a former literature major and English teacher in France for many years, I also love reading source code and finding out how the libraries I use actually work. Research has always been one of my greatest passions, and I bring this enthusiasm to coding. I always need to be challenged to learn more!</p>
-          <p>In a workpace environment, I prize good communication and empathetic listening. I will always take the time to explain what I'm doing, and I don't hesitate to ask questions so that the work I do can truly meet the needs of my team or my particular client.</p>
+          <p>In a workplace environment, I prize good communication and empathetic listening. I will always take the time to explain what I'm doing, and I don't hesitate to ask questions so that the work I do can truly meet the needs of my team or my particular client.</p>
           `
 const contact = `<div class="fix-me-contact"><h1>Contact Me:</h1></div>
           <p>sbalsom@protonmail.com</p>
