@@ -3,6 +3,7 @@
   /*...*/
   visibility: hidden;
   transition: visibility 0s 1s;
+/*  overflow: scroll;*/
 }
 
 .cd-panel-about.cd-panel--is-visible {
@@ -18,7 +19,7 @@
 }
 
 .cd-panel__container {
-  width: 650px;
+  width: 75vw;
   height: 100vh;
   top: 58px;
   position: fixed;
@@ -31,10 +32,15 @@
   padding:20px;
   z-index:930;
   overflow: scroll;
+
+}
+.cd-panel__content {
+overflow: scroll;
 }
 
 .cd-panel__content p {
   text-align:justify;
+  max-width:700px;
   }
 
 .cd-panel-contact .cd-panel__container {
@@ -83,12 +89,13 @@
 @media(max-width: 700px) {
   .cd-panel__container {
     overflow: scroll;
-    height:50vh;
+    height:100vh;
     width: 80%;
   }
 
   .cd-panel__content {
     padding-bottom: 100px;
+    padding-top:100px;
   }
 
   .cd-panel-about .cd-panel__content p {
