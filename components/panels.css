@@ -61,13 +61,22 @@
 }
 
 .cd-panel__content p {
-  font-size:1em;
+  font-family: 'Raleway', sans-serif;
 
 }
 
 .cd-panel__content p:last-child {
   margin-bottom:40px;
 
+}
+
+.cd-panel-about .cd-panel__content {
+  font-size:1em;
+}
+
+.cd-panel-contact .cd-panel__content p {
+  font-size:2em;
+  text-align:center;
 }
 
 
