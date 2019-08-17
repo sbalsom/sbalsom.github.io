@@ -1,0 +1,19 @@
+Recently graduated from Le Wagon coding bootcamp in Berlin, I'm a junior developer with a focus on back-end development, web apps, and software development. I love using MVC and schema visualisation to get the behind-the-scenes magic of a project running, and I'm particularly fond of Ruby on Rails, the framework I've learned to use for the majority of my projects.
+
+As a former literature major and English teacher in France for many years, I also love reading source code and finding out how the libraries I use actually work. Research has always been one of my greatest passions, and I bring this enthusiasm to coding. I always need to be challenged to learn more!
+
+In a workpace environment, I prize good communication and empathetic listening. I will always take the time to explain what I'm doing, and I don't hesitate to ask questions so that the work I do can truly meet the needs of my team or my particular client.
+
+I look forward to working with you
+
+I just graduated from LeWagon bootcamp
+I’m a junior developer interested in back-end. I’m particularly interested in rails development and relational database architecture,
+i love reading source code and finding out how a library i am using actually works.
+
+my academic background informs my work today ; everything i do in programming is in the spirit of the pursuit of knowledge. i’ve always taken an interdisciplinary approach to my research, combining data science and the humanities wherever possible. My studies in literature and museology have lead me to Paris, where I wrote a masters thesis  in comparative literature, and to Sarajevo, where I worked as an intern studying the cataloguing and restoration efforts at a national museum. I am currently based in Berlin, where I am beginning my career as a freelance junior developer.
+
+appropriate, focusing on systems, catalogues, historical research
+
+
+
+Now i use this approach in my work as a junior developer, thinking about each project on a global scale. While my talents lie in back end development , my thoughts are always turned towards integrating back end and front end and optimizing the UX from both perspectives.

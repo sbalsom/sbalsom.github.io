@@ -1,0 +1,17 @@
+.cards-container {
+  display: flex;
+  justify-content:space-around;
+  position:absolute;
+  top:200px;
+}
+.card {
+  width:20vw;
+  height:20vh;
+  border-radius: 7px;
+  box-shadow: #bfbfbf 0px 0px 10px 0px;
+
+}
+
+.card-image {
+  background-image: url('images/prototype-1.png');
+}

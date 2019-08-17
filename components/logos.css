@@ -1,5 +1,14 @@
-svg {
-      width:150px;
-      height:150px;
-      margin:16px;
-    }
+
+#logo {
+
+  width:150px;
+  height:150px;
+  margin-right: 5vw;
+}
+
+@media(max-width: 500px) {
+  #logo {
+    visibility: hidden;
+  }
+}
+

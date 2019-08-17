@@ -1,33 +1,76 @@
-.header-banner {
-  padding: 25% 0 0 0;
-  margin:0 0 16px 0;
+
+.header-nav {
+    display:flex;
+    position:fixed;
+    background:white;
+    width:100%;
 }
 
-
 .header-nav a {
-  margin:0 0 16px 0;
-  font-size: .8em;
+  margin:0 10% 10% 0;
+  font-size: 3vh;
   text-decoration: none;
   font-family: 'Raleway Dots', 'Arial', sans-serif;
-  color:black;
+  color:pink;
+
 }
 
 .header-nav a:hover {
   color: #BEDFDC;
 }
 
-@media(max-width: 400px) {
-  .header-nav {
-    flex-flow:column;
+
+.headline h1 {
+  margin: 0 0 0 0;
+  position:absolute;
+  top: 14px;
+  font-size: 30px;
+}
+
+.headline h3 {
+  margin: 0 0 0 0;
+  position:absolute;
+  top: 60px;
+}
+.headline .nav {
+  position: absolute;
+  top: 113px;
+  width: 100%;
+  /*display:flex;
+  justify-content:space-around;*/
+}
+
+@media(max-width: 500px) {
+
+  .headline .nav {
+    top: 66px;
+    left: 27px;
+    display: flex;
+    flex-direction: column;
   }
-  .header-nav a {
-    text-align:center;
+
+  .header-nav {
+    height: 30vh;
+    flex-direction: column;
+  }
+
+  .headline h1 {
+    font-size: 45px;
+    top: 10px;
+    left: 27px;
+    font-family: 'Raleway Dots', 'Arial', sans-serif;
+    color:red;
+  }
+
+  .headline h3 {
+    visibility:hidden;
 
   }
-}
-@media screen and (max-width: 960px) {
-  .header-banner {
-    background-image: url("/images/rectangle-2.png");
-    background-repeat: no-repeat;
+
+  .header-nav a {
+    font-size: 41px;
+    margin:0 0 8px 0;
   }
+
+
 }
