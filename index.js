@@ -1,23 +1,32 @@
 
-const about = `<h1>About Me</h1>
+const about = `<div class="fix-me-about"><h1>About Me</h1></div>
           <p>Recently graduated from Le Wagon coding bootcamp in Berlin, I'm a junior developer with a focus on back-end development, web apps, and software development. I love using MVC and schema visualisation to get the behind-the-scenes magic of a project running, and I'm particularly fond of Ruby on Rails, the framework I've learned to use for the majority of my projects.</p>
           <p>As a former literature major and English teacher in France for many years, I also love reading source code and finding out how the libraries I use actually work. Research has always been one of my greatest passions, and I bring this enthusiasm to coding. I always need to be challenged to learn more!</p>
           <p>In a workpace environment, I prize good communication and empathetic listening. I will always take the time to explain what I'm doing, and I don't hesitate to ask questions so that the work I do can truly meet the needs of my team or my particular client.</p>
           `
-const contact = `<h1>About</h1>
-          <p>A test of the sliding side panel</p>
-          <p>An inserted contact paragraph</p>`
+const contact = `<div class="fix-me-contact"><h1>Contact</h1></div>
+          <p>sbalsom@protonmail.com</p>
+          <p>+33 7 69 45 47 53</p>`
 
 const cards = `<div class="cards-container">
 
   <div class="display-card">
-    <div class="card-image"></div>
+    <div class="card-image-1"></div>
+    <div class="card-text">
+      <p>Backend support to manage your database, build a functioning web application, debug and improve the software architecture and features of your online app</p>
+    </div>
   </div>
   <div class="display-card">
-    <div class="card-image"></div>
+    <div class="card-image-2"></div>
+    <div class="card-text">
+      <p>Styling for your website to attract customers and give them the best possible experience interacting with your product or service online</p>
+    </div>
   </div>
   <div class="display-card">
-    <div class="card-image"></div>
+    <div class="card-image-3"></div>
+    <div class="card-text">
+      <p>Branding, logos, and design suited to your needs</p>
+    </div>
 </div>`
 
 const aboutPanel = document.querySelector(".cd-panel-about")

@@ -9,6 +9,7 @@
   bottom:0;
   width:100%;
   background-color :white;
+  height:150px;
 
 }
 
@@ -40,5 +41,33 @@
  .social-media-footer i:hover {
   color: rgba(124,10,255,0.34);
 }
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .social-media-footer {
+      height:11vh;
+      padding: 0 0 4vh 0;
+      }
+
+      .social-media-footer i {
+        color: #99b19c;
+        font-size: 6em;
+        margin:0 20px 0 0;
+
+      }
+
+      .social-media-headline {
+        font-size:2em;
+      }
+
+      .inline-list {
+        padding-bottom:10vh;
+      }
+
+
+
+    }
 
 
