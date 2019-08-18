@@ -3,8 +3,9 @@
     display:flex;
     position:fixed;
     background:white;
-    width:100%;
+    width:100vw;
     padding-bottom: 15px;
+    padding-left:5vh;
     z-index:999;
 }
 
@@ -41,6 +42,13 @@
 
 }
 
+@media(max-width: 700px) {
+  .header-nav {
+    overflow:scroll;
+  }
+
+}
+
 @media(max-width: 500px) {
 
   .headline .nav {
@@ -53,6 +61,7 @@
   .header-nav {
     height: 30vh;
     flex-direction: column;
+    overflow:scroll;
   }
 
   .headline h1 {
