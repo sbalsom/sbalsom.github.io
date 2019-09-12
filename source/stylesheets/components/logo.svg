@@ -1,0 +1,10 @@
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="isolation:isolate" viewBox="0 0 100px 100px">
+            <!-- <symbol id="my-logo" class="my-logo" viewBox="0 0 100px 100px"> -->
+                <circle r="50" cx="75" cy="75" rx="52" ry="52" fill="rgb(190,223,220)">
+                </circle>
+                <line x1="5" y1="20" x2="120" y2="140" vector-effect="non-scaling-stroke" stroke-width="4" stroke="rgb(93,93,93)" stroke-opacity="0.71" stroke-linecap="square" >
+                </line>
+                <line x1="40" y1="15" x2="135" y2="115" vector-effect="non-scaling-stroke" stroke-width="4" stroke="rgb(116,116,116)" stroke-opacity="0.49" stroke-linecap="square">
+              </line>
+<!--             </symbol> -->
+          </svg>
