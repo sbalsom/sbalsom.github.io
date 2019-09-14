@@ -1,4 +1,4 @@
-.info-wrapper {
+.circle-wrapper {
   border:dashed 5px white;
   margin:0 20px;
   border-radius:50%;
@@ -8,7 +8,7 @@
   min-width:250px;
 }
 
-.info {
+.circle {
   background: white;
   border-radius:50%;
   height:inherit;

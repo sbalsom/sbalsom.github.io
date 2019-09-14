@@ -50,21 +50,17 @@
       <img src="images/rose.png" height="250px">
     </div>
     <!-- under fold -->
-    <div class="content" id="content">
-      <div class="flex card">
-         <div class="flex-1">
-         <h2>Ruby = <3 </h2>
-         <p>I use Ruby on Rails and Middleman to deliver web apps and static websites. I'm obviously a fan of javascript (see: all the craziness above). You can find links to my projects below. </p>
-       </div>
-          <div class="info-wrapper">
-         <div class="info center-content" id="about">
+    <div class="content center-content" id="content">
+      <div class="circle-wrapper">
+         <div class="circle center-content" id="about">
           <img src="images/ruby.png" height="180px">
-         </div>
-       </div>
+        </div>
       </div>
-     <div class="center-content card">
+      <h2>Ruby = <3 </h2>
+      <div class="bio large-text">
+        <p>I use Ruby on Rails and Middleman to deliver web apps and static websites. I'm obviously a fan of javascript (see: all the craziness above). You can find links to my projects below. </p>
+      </div>
       <div class="flex-1" id="portfolio">
-       <div class="flex">
           <a href="https://agile-atoll-41432.herokuapp.com/"><img src="images/iwell-1.png" alt="iWell Homepage" width="519px"></a>
        </div>
         <br>
@@ -72,17 +68,18 @@
         <br>
         <a href="#"><img src="images/swapit-png.png" alt="" width="519px" class="mt-big"></a>
         <br>
-        <p id="coming-soon">In development: Poetry Scrambler</p>
-       </div>
-        <div class="info-wrapper mt-big">
-         <div class="info center-content" id="contact">
+        <div class="large-text">
+          <p id="coming-soon">In development: Poetry Scrambler</p>
+        </div>
+        <div class="circle-wrapper mt-big">
+         <div class="circle center-content" id="contact">
           <h3>Contact</h3>
-         <p>+33 7 69 45 47 53</p>
+          <p>+33 7 69 45 47 53</p>
           <p>sbalsom@protonmail.com</p>
          </div>
        </div>
      </div>
-  </div>
+     </div>
   <div class="social-media-footer">
       <div class="social-media-headline">
         <h2>Follow me on social media :</h2>
@@ -105,7 +102,6 @@
         </li>
         </ul>
       </div>
-</div>
 <script>
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {

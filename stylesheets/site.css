@@ -79,6 +79,14 @@ p {
   z-index: 0;
   padding: 100px 30px; }
 
+.large-text p {
+  color: white;
+  font-size: 20px;
+  text-align: center; }
+
+.bio {
+  width: 500px; }
+
 #coming-soon {
   text-align: center; }
 
