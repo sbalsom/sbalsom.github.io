@@ -1,0 +1,57 @@
+/*     <div id="cloud"><span class="shadow"></span></div>
+    </div>*/
+
+body {
+  background: #ccc;
+}
+
+div#cloud {
+  width: 350px;
+  height: 120px;
+
+  background: #f2f9fe;
+  background: -webkit-gradient(linear,  left top, left bottom,  color-stop(5%, #f2f9fe),to(#d6f0fd));
+  background: linear-gradient(top,  #f2f9fe 5%,#d6f0fd 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f9fe', endColorstr='#d6f0fd',GradientType=0 );
+
+  position: relative;
+  margin: 120px auto 20px;
+  border-radius: 100px;
+}
+
+div#cloud:after, div#cloud:before {
+  content: '';
+  position: absolute;
+  z-indeX: -1;
+  background: #f2f9fe;
+}
+
+div#cloud:after {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+
+  top: -50px;
+  left: 50px;
+}
+
+div#cloud:before {
+  width: 180px;
+  height: 180px;
+  border-radius: 200px;
+
+  top: -90px;
+  right: 50px;
+}
+
+span.shadow {
+  width: 350px;
+  position: absolute;
+  bottom: -10px;
+  background: black;
+  z-index: -1;
+  border-radius: 50%;
+
+  -webkit-box-shadow: 0px 0px 25px 8px rgba(0,0,0,0.4);
+  box-shadow: 0px 0px 25px 8px rgba(0,0,0,0.4);
+}

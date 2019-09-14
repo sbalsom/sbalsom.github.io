@@ -1,12 +1,139 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>My GitHub Page</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <h1>My GitHub Page</h1>
-  <p>Coming soon...</p>
-</body>
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Use the title from a page's frontmatter if it has one -->
+    <title>Sadie Balsom - Developer</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  <style>
+  </style>
+  <script src="https://kit.fontawesome.com/4f87db517d.js"></script>
+    <link href="/stylesheets/site.css" rel="stylesheet" />
+    <script src="/javascripts/site.js"></script>
+  </head>
+  <body>
+      <div class="site-container">
+    <div class="header-nav-desktop">
+      <div class="headline">
+        <h1>Sadie May</h1>
+        <h3>Fullstack Developer</h3>
+        <div class="nav">
+          <a href="#portfolio" class="">My Work</a>
+          <a href="#about" class="">About</a>
+          <a href="#contact" class="">Hire Me</a>
+      </div>
+      </div>
+
+    </div>
+    <div class="banner center-content">
+      <div class="display" id="info-box">
+        <div class="">
+          <i class="fas fa-terminal"></i>
+          <p class="typed"></p>
+        </div>
+      </div>
+      <div class="arrow-wrapper">
+        <a href="#content" id="about-button"><p><i class="fas fa-chevron-down"></i></p></a>
+      </div>
+    </div>
+    <!--     bouncing things -->
+    <div class="floating-1" id="girl">
+      <img src="images/cutout-1.png" height="300px">
+    </div>
+    <div class="floating-2" id="pom">
+      <img src="images/pom.png" height="100px">
+    </div>
+    <div class="floating-3" id="rose">
+      <img src="images/rose.png" height="250px">
+    </div>
+    <!-- under fold -->
+    <div class="content" id="content">
+      <div class="flex card">
+         <div class="flex-1">
+         <h2>Ruby = <3 </h2>
+         <p>I use Ruby on Rails and Middleman to deliver web apps and static websites. I'm obviously a fan of javascript (see: all the craziness above). You can find links to my projects below. </p>
+       </div>
+          <div class="info-wrapper">
+         <div class="info center-content" id="about">
+          <img src="images/ruby.png" height="180px">
+         </div>
+       </div>
+      </div>
+     <div class="center-content card">
+      <div class="flex-1" id="portfolio">
+       <div class="flex">
+          <a href="https://agile-atoll-41432.herokuapp.com/"><img src="images/iwell-1.png" alt="iWell Homepage" width="519px"></a>
+       </div>
+        <br>
+        <a href="#"><img src="images/instrurent.png" alt="" width="519px" class="mt-big"></a>
+        <br>
+        <a href="#"><img src="images/swapit-png.png" alt="" width="519px" class="mt-big"></a>
+        <br>
+        <p id="coming-soon">In development: Poetry Scrambler</p>
+       </div>
+        <div class="info-wrapper mt-big">
+         <div class="info center-content" id="contact">
+          <h3>Contact</h3>
+         <p>+33 7 69 45 47 53</p>
+          <p>sbalsom@protonmail.com</p>
+         </div>
+       </div>
+     </div>
+  </div>
+  <div class="social-media-footer">
+      <div class="social-media-headline">
+        <h2>Follow me on social media :</h2>
+      </div>
+      <ul class="inline-list">
+        <li>
+          <a href="https://twitter.com/sadie__codes" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/sbalsom" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/sadie__codes/" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        </ul>
+      </div>
+</div>
+<script>
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        console.log(e);
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
+</script>
+
+<script type="module">
+import Typed from './javascripts/plugins/typed.js';
+
+var options = {
+  strings: ["rails g model Sadie", "rails g controller sadies code sleep repeat", "rails g migration AddIsAGeekToSadie", "rails c", "s = Sadie.create!(is_a_geek:true)", "Sadie.code(project: 'whatever you want', within_reason: true(kinda))", "Sadie.sleep(duration: Date.today.end_of_day - Date.today.beginning_of_day, location: 'dreamland')", "Sadie.repeat", "exit"],
+  typeSpeed: 50,
+  backDelay: 500,
+  loop:true
+}
+
+var typed = new Typed(".typed", options);
+
+</script>
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+
+  </body>
 </html>
