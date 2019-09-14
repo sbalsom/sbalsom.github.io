@@ -1,12 +1,9 @@
 
 .social-media-footer {
-
   margin: auto;
   margin-top:50px;
   text-align: center;
   z-index:999;
-  position:fixed;
-  bottom:0;
   width:100%;
   background-color :white;
   height:150px;
@@ -17,7 +14,6 @@
   list-style: none;
   padding:0;
 
-
 }
 
 .inline-list li {
@@ -26,10 +22,9 @@
 }
 
  .social-media-headline {
-  font-family: 'Raleway Dots', cursive;
+  font-family: 'Poiret One', sans-serif;
   text-decoration: none;
   color: black;
-
 }
 
  .social-media-footer i {

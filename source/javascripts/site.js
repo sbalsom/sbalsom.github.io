@@ -1,4 +1,5 @@
 
+
 // bouncing images on load
 document.addEventListener('DOMContentLoaded', function() {
   setTimeout(function() {
@@ -16,7 +17,3 @@ document.addEventListener('DOMContentLoaded', function() {
 
 }, false);
 
-// var typed = new Typed('.typed', {
-//   strings: ["Hello.", "Second sentence."],
-//   typeSpeed: 30
-// });

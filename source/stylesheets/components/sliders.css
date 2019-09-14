@@ -14,8 +14,54 @@
   visibility: hidden;
 }
 
-/* vertical sliders */
+/*horizontal sliders work on all devices*/
+.slideRight{
+  animation-name: slideRight;
+  -webkit-animation-name: slideRight;
 
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+
+  animation-timing-function: ease;
+  -webkit-animation-timing-function: ease;
+
+  visibility: visible !important;
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(-100%);
+  }
+  50%{
+    transform: translateX(8%);
+  }
+  80%{
+    transform: translateX(4%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@-webkit-keyframes slideRight {
+  0% {
+    -webkit-transform: translateX(-100%);
+  }
+  50%{
+    -webkit-transform: translateX(8%);
+  }
+  80%{
+    -webkit-transform: translateX(4%);
+  }
+  100% {
+    -webkit-transform: translateX(0%);
+  }
+}
+
+/* vertical sliders only work on large screens */
+
+@media only screen
+  and (min-width: 550px) {
 .slideDown{
   animation-name: slideDown;
   -webkit-animation-name: slideDown;
@@ -107,45 +153,4 @@
 
 /* horizontal sliders */
 
-.slideRight{
-  animation-name: slideRight;
-  -webkit-animation-name: slideRight;
-
-  animation-duration: 1s;
-  -webkit-animation-duration: 1s;
-
-  animation-timing-function: ease;
-  -webkit-animation-timing-function: ease;
-
-  visibility: visible !important;
-}
-
-@keyframes slideRight {
-  0% {
-    transform: translateX(-100%);
-  }
-  50%{
-    transform: translateX(8%);
-  }
-  80%{
-    transform: translateX(4%);
-  }
-  100% {
-    transform: translateX(0%);
-  }
-}
-
-@-webkit-keyframes slideRight {
-  0% {
-    -webkit-transform: translateX(-100%);
-  }
-  50%{
-    -webkit-transform: translateX(8%);
-  }
-  80%{
-    -webkit-transform: translateX(4%);
-  }
-  100% {
-    -webkit-transform: translateX(0%);
-  }
 }

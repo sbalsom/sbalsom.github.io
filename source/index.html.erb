@@ -1,4 +1,4 @@
-  <div class="container">
+  <div class="site-container">
     <div class="header-nav-desktop">
       <div class="headline">
         <h1>Sadie May</h1>
@@ -13,8 +13,10 @@
     </div>
     <div class="banner center-content">
       <div class="display" id="info-box">
-        <i class="fas fa-terminal"></i>
-        <div class="typed"></div>
+        <div class="">
+          <i class="fas fa-terminal"></i>
+          <p class="typed"></p>
+        </div>
       </div>
       <div class="arrow-wrapper">
         <a href="#content" id="about-button"><p><i class="fas fa-chevron-down"></i></p></a>
@@ -22,7 +24,7 @@
     </div>
     <!--     bouncing things -->
     <div class="floating-1" id="girl">
-      <img src="images/lady-1.png" height="300px">
+      <img src="images/cutout-1.png" height="300px">
     </div>
     <div class="floating-2" id="pom">
       <img src="images/pom.png" height="100px">
@@ -32,34 +34,62 @@
     </div>
     <!-- under fold -->
     <div class="content" id="content">
-     <div class="flex card">
-        <div class="info-wrapper">
+      <div class="flex card">
+         <div class="flex-1">
+         <h2>Ruby = <3 </h2>
+         <p>I use Ruby on Rails and Middleman to deliver web apps and static websites. I'm obviously a fan of javascript (see: all the craziness above). You can find links to my projects below. </p>
+       </div>
+          <div class="info-wrapper">
          <div class="info center-content" id="about">
-          <img src="images/laptop-love.svg" alt="">
+          <img src="images/ruby.png" height="180px">
          </div>
        </div>
-       <div class="flex-1">
-         <h2>I love code</h2>
-         <p>So how did a literature major end up writing Ruby on Rails applications ? Well...</p>
+      </div>
+     <div class="center-content card">
+      <div class="flex-1" id="portfolio">
+       <div class="flex">
+          <a href="https://agile-atoll-41432.herokuapp.com/"><img src="images/iwell-1.png" alt="iWell Homepage" height="300px"></a>
+         <p>iWell is a therapy app</p>
        </div>
-     </div>
-     <div class="flex card">
-      <div class="flex-1">
-         <h2>Contact</h2>
+        <br>
+        <a href="#"><img src="images/instrurent.png" alt="" width="519px" class="mt-big"></a>
+        <br>
+        <a href="#"><img src="images/swapit-png.png" alt="" width="519px" class="mt-big"></a>
+        <br>
+        <p id="coming-soon">In development: Poetry Scrambler</p>
+       </div>
+        <div class="info-wrapper mt-big">
+         <div class="info center-content" id="contact">
+          <h3>Contact</h3>
          <p>+33 7 69 45 47 53</p>
           <p>sbalsom@protonmail.com</p>
-       </div>
-        <div class="info-wrapper">
-         <div class="info center-content" id="contact">
          </div>
        </div>
-
      </div>
-      <div id="cloud"><span class="shadow"></span></div>
-    </div>
-
   </div>
-
+  <div class="social-media-footer">
+      <div class="social-media-headline">
+        <h2>Follow me on social media :</h2>
+      </div>
+      <ul class="inline-list">
+        <li>
+          <a href="https://twitter.com/sadie__codes" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/sbalsom" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/sadie__codes/" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        </ul>
+      </div>
+</div>
 <script>
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
@@ -71,5 +101,18 @@
     });
 });
 
+</script>
+
+<script type="module">
+import Typed from './javascripts/plugins/typed.js';
+
+var options = {
+  strings: ["rails g model Sadie", "rails g controller sadies code sleep repeat", "rails g migration AddIsAGeekToSadie", "rails c", "s = Sadie.create!(is_a_geek:true)", "Sadie.code(project: 'whatever you want', within_reason: true(kinda))", "Sadie.sleep(duration: Date.today.end_of_day - Date.today.beginning_of_day, location: 'dreamland')", "Sadie.repeat", "exit"],
+  typeSpeed: 50,
+  backDelay: 500,
+  loop:true
+}
+
+var typed = new Typed(".typed", options);
 
 </script>
