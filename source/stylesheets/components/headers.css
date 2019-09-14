@@ -1,6 +1,7 @@
 
 .header-nav-desktop {
     display:flex;
+    height:170px;
     position:fixed;
     background:white;
     width:100vw;

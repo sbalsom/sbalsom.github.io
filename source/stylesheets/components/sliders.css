@@ -1,0 +1,151 @@
+#girl {
+  visibility:hidden;
+}
+
+#pom {
+  visibility: hidden;
+}
+
+#info-box {
+  visibility: hidden;
+}
+
+#rose {
+  visibility: hidden;
+}
+
+/* vertical sliders */
+
+.slideDown{
+  animation-name: slideDown;
+  -webkit-animation-name: slideDown;
+
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+
+  animation-timing-function: ease;
+  -webkit-animation-timing-function: ease;
+
+  visibility: visible !important;
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%);
+  }
+  50%{
+    transform: translateY(8%);
+  }
+  65%{
+    transform: translateY(-4%);
+  }
+  80%{
+    transform: translateY(4%);
+  }
+  95%{
+    transform: translateY(-2%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@-webkit-keyframes slideDown {
+  0% {
+    -webkit-transform: translateY(-100%);
+  }
+  50%{
+    -webkit-transform: translateY(8%);
+  }
+  65%{
+    -webkit-transform: translateY(-4%);
+  }
+  80%{
+    -webkit-transform: translateY(4%);
+  }
+  95%{
+    -webkit-transform: translateY(-2%);
+  }
+  100% {
+    -webkit-transform: translateY(0%);
+  }
+}
+
+/*slower*/
+
+.driftDown{
+  animation-name: driftDown;
+  -webkit-animation-name: driftDown;
+
+  animation-duration: 3s;
+  -webkit-animation-duration: 3s;
+
+  animation-timing-function: ease;
+  -webkit-animation-timing-function: ease;
+
+  visibility: visible !important;
+}
+/*goal : 490*/
+@keyframes driftDown {
+  0% {
+    transform: translateY(-200%);
+ }
+
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@-webkit-keyframes driftDown {
+  0% {
+    -webkit-transform: translateY(-200%);
+  }
+  100% {
+    -webkit-transform: translateY(0%);
+  }
+}
+
+/* horizontal sliders */
+
+.slideRight{
+  animation-name: slideRight;
+  -webkit-animation-name: slideRight;
+
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+
+  animation-timing-function: ease;
+  -webkit-animation-timing-function: ease;
+
+  visibility: visible !important;
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(-100%);
+  }
+  50%{
+    transform: translateX(8%);
+  }
+  80%{
+    transform: translateX(4%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@-webkit-keyframes slideRight {
+  0% {
+    -webkit-transform: translateX(-100%);
+  }
+  50%{
+    -webkit-transform: translateX(8%);
+  }
+  80%{
+    -webkit-transform: translateX(4%);
+  }
+  100% {
+    -webkit-transform: translateX(0%);
+  }
+}

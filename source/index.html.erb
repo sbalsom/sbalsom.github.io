@@ -4,24 +4,72 @@
         <h1>Sadie May</h1>
         <h3>Fullstack Developer</h3>
         <div class="nav">
-          <a href="#" class="portfolio-button-before">My Work</a>
-          <a href="#" class="toggle-button-about">About</a>
-          <a href="#" class="toggle-button-contact">Hire Me</a>
+          <a href="#portfolio" class="">My Work</a>
+          <a href="#about" class="">About</a>
+          <a href="#contact" class="">Hire Me</a>
       </div>
       </div>
 
     </div>
-    <div class="banner parallax">
+    <div class="banner center-content">
+      <div class="display" id="info-box">
+        <i class="fas fa-terminal"></i>
+        <div class="typed"></div>
+      </div>
+      <div class="arrow-wrapper">
+        <a href="#content" id="about-button"><p><i class="fas fa-chevron-down"></i></p></a>
+      </div>
     </div>
-    <div class="content">
-
+    <!--     bouncing things -->
+    <div class="floating-1" id="girl">
+      <img src="images/lady-1.png" height="300px">
     </div>
-    <div class="floating-1">
-      <img src="images/cutout-1.png" alt="">
+    <div class="floating-2" id="pom">
+      <img src="images/pom.png" height="100px">
     </div>
+    <div class="floating-3" id="rose">
+      <img src="images/rose.png" height="250px">
+    </div>
+    <!-- under fold -->
+    <div class="content" id="content">
+     <div class="flex card">
+        <div class="info-wrapper">
+         <div class="info center-content" id="about">
+          <img src="images/laptop-love.svg" alt="">
+         </div>
+       </div>
+       <div class="flex-1">
+         <h2>I love code</h2>
+         <p>So how did a literature major end up writing Ruby on Rails applications ? Well...</p>
+       </div>
+     </div>
+     <div class="flex card">
+      <div class="flex-1">
+         <h2>Contact</h2>
+         <p>+33 7 69 45 47 53</p>
+          <p>sbalsom@protonmail.com</p>
+       </div>
+        <div class="info-wrapper">
+         <div class="info center-content" id="contact">
+         </div>
+       </div>
 
-
-<!--     floating stuff  -->
-
+     </div>
+      <div id="cloud"><span class="shadow"></span></div>
+    </div>
 
   </div>
+
+<script>
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        console.log(e);
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
+
+</script>
