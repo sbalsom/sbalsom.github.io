@@ -1,0 +1,29 @@
+
+.banner {
+  height: 90vh;
+  background: url('../../images/clouds3.jpg');
+  background-size:cover;
+  position:relative;
+  -webkit-transform: translateZ(-2px) scale(2);
+          transform: translateZ(-2px) scale(2);
+  z-index: -1;
+  padding-top:180px;
+}
+
+.banner a {
+  color:#8a8a9c;
+  font-size:40px;
+}
+
+.arrow-wrapper {
+  position:absolute;
+  top:90vh;
+}
+
+.display {
+  padding: 20px;
+  background:white;
+  height:250px;
+  width:400px;
+  border-radius:20px;
+}
