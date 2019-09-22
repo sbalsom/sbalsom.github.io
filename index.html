@@ -8,79 +8,159 @@
     <!-- Use the title from a page's frontmatter if it has one -->
     <title>Sadie Balsom - Developer</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-  <style>
-  </style>
   <script src="https://kit.fontawesome.com/4f87db517d.js"></script>
     <link href="/stylesheets/site.css" rel="stylesheet" />
     <script src="/javascripts/site.js"></script>
   </head>
   <body>
-      <div class="site-container">
-    <div class="header">
-      <div class="header__headline">
-        <h1>Sadie May</h1>
-        <h3>Fullstack Developer</h3>
-        <div class="nav">
-          <a href="#portfolio" class="">My Work</a>
-          <a href="#about" class="">About</a>
-          <a href="#contact" class="">Hire Me</a>
-      </div>
-      </div>
-
+    <div class="site-container">
+  <div class="header">
+    <div class="header__headline">
+      <h1>Sadie May</h1>
+      <h3>Fullstack Developer</h3>
+      <div class="nav">
+        <a href="#portfolio" class="">My Work</a>
+        <a href="#about" class="">About</a>
+        <a href="#contact" class="">Hire Me</a>
     </div>
-    <div class="banner center-content">
-      <div class="display" id="info-box">
-        <div class="">
-          <i class="fas fa-terminal"></i>
-          <p class="typed"></p>
-        </div>
-      </div>
-      <div class="arrow-wrapper">
-        <a href="#content" id="about-button"><p><i class="fas fa-chevron-down"></i></p></a>
+    </div>
+  </div>
+  <div class="banner center-content">
+    <div class="display" id="info-box">
+      <div class="">
+        <i class="fas fa-terminal"></i>
+        <p class="typed"></p>
       </div>
     </div>
+    <div class="arrow-wrapper">
+      <a href="#content" id="about-button"><p><i class="fas fa-chevron-down"></i></p></a>
+    </div>
+  </div>
     <!--     bouncing things -->
-    <div class="floating-1" id="girl">
-      <img src="images/cutout-1.png" height="300px">
-    </div>
-    <div class="floating-2" id="pom">
-      <img src="images/pom.png" height="100px">
-    </div>
-    <div class="floating-3" id="rose">
-      <img src="images/rose.png" height="250px">
-    </div>
+  <div class="floating-1" id="girl">
+    <img src="images/cutout-1.png" height="300px">
+  </div>
+  <div class="floating-2" id="pom">
+    <img src="images/pom.png" height="100px">
+  </div>
+  <div class="floating-3" id="rose">
+    <img src="images/rose.png" height="250px">
+  </div>
     <!-- under fold -->
-    <div class="content center-content" id="content">
-      <div class="circle-wrapper">
-         <div class="circle center-content" id="about">
-          <img src="images/ruby.png" height="180px">
+  <div class="content center-content" id="content">
+    <div class="content__flex-wrapper">
+      <div class="content__right-half bio">
+        <div class="bio__circle circle-wrapper">
+          <div class="circle center-content" id="about">
+            <img src="images/ruby.png" height="180px">
+          </div>
+        </div>
+        <h2>Ruby = <3 </h2>
+        <div class="bio__text large-text">
+          <p>I use Ruby on Rails and Middleman to deliver web apps and static websites. I'm obviously a fan of Javascript (see: all the craziness above), and I have added React and Vue.js to my frontend toolkit. You can find links to some of my projects on this page, as well as links to my other profiles.</p>
+          <p>Aside from building cool apps, playing with React components, and calling APIs, I love to write. I currently use my <a href="https://www.instagram.com/sadie__codes/">Instagram</a> as a platform to write about coding. <a href="#social">Follow me</a> there to see my series of Q & A posts for junior devs !</p>
+          <div class="links flex-column">
+            <a href="https://codesandbox.io/u/sbalsom" target=”_blank”>My CodeSandbox Profile</a>
+            <a href="https://leetcode.com/sbalsom/" target=”_blank” >My LeetCode Profile</a>
+          </div>
+          <p>(Yes, I've submitted a lot of wrong answers, but I always keep trying ! Failure is good for your 🧠).</p>
         </div>
       </div>
-      <h2>Ruby = <3 </h2>
-      <div class="bio large-text">
-        <p>I use Ruby on Rails and Middleman to deliver web apps and static websites. I'm obviously a fan of javascript (see: all the craziness above). You can find links to some of my projects below. </p>
-      </div>
-      <div class="flex-1" id="portfolio">
-          <a href="https://agile-atoll-41432.herokuapp.com/"><img src="images/iwell-1.png" class="port-img" alt="iWell Homepage" width="519px"></a>
-       </div>
-        <br>
-        <a href="#"><img src="images/instrurent.png" alt="" width="519px" class="port-img mt-big"></a>
-        <br>
-        <a href="#"><img src="images/swapit-png.png" alt="" width="519px" class="port-img mt-big"></a>
-        <br>
-        <div class="large-text">
-          <p id="coming-soon">In development: Poetry Scrambler</p>
+      <div class="content__left-half">
+        <div class="bio__circle circle-wrapper">
+          <div class="circle center-content" id="headshot">
+          </div>
         </div>
-        <div class="circle-wrapper mt-big">
-         <div class="circle center-content" id="contact">
-          <h3>Contact</h3>
-          <p>+33 7 69 45 47 53</p>
-          <p>sbalsom@protonmail.com</p>
-         </div>
-       </div>
-     </div>
-     </div>
-  <div class="social-media-footer">
+        <h2>My Projects </h2>
+      <!--          begin slider  -->
+      <div class="portfolio slideshow-container">
+        <!--           slider item one -->
+        <div class="portfolio__featured portfolio__slide fade" id="portfolio">
+          <h2>iWell</h2>
+          <a href="https://agile-atoll-41432.herokuapp.com/" target=”_blank” >
+            <div class="portfolio__image" id="iwell"></div>
+          </a>
+          <div class="portfolio__featured-text">
+            <p>iWell is an online therapy app, geared towards the European market. Built using Ruby on Rails, users can search for therapists, book an appointment, and place a video call to their therapist using Twilio. Built in 2 weeks by a team of four at Le Wagon bootcamp in Berlin.</p>
+          </div>
+        </div>
+        <!--           slider item 2 -->
+        <div class="portfolio__coming-soon portfolio__slide fade">
+          <h3>SwapIt</h3>
+          <a href="#">
+            <div class="portfolio__image" id="swapit"></div>
+          </a>
+          <div class="portfolio__coming-soon-text">
+            <p>SwapIt is a personal project I am working on, where users will be able to find clothing to swap with other users in their area. This project was born out of my frustration trying to find clothing swaps in Paris ! Currently in development.</p>
+          </div>
+        </div>
+        <!-- slider item 3  -->
+        <div class="portfolio__coming-soon portfolio__slide fade">
+          <h3>InstruRent</h3>
+          <a href="#">
+            <div class="portfolio__image" id="instrurent"></div>
+          </a>
+          <div class="portfolio__coming-soon-text">
+            <h3>InstruRent</h3>
+            <p>Instrurent was built in a week by a team of four at Le Wagon bootcamp. Users can locate instruments in their city to rent from other users. Currently forked for refactoring.</p>
+        </div>
+        </div>
+        <!--        slider item 4 -->
+        <div class="portfolio__coming-soon portfolio__slide fade">
+          <h3>Poetry Scrambler Gem</h3>
+          <a href="#">
+            <div class="portfolio__image center-content"><img src="images/gem-regular.svg" alt="ruby gem icon" id="gem"></div>
+
+          </a>
+          <div class="portfolio__coming-soon-text">
+            <p>The poetry scrambler gem will take a string and scramble it to poetic effect.</p>
+          </div>
+        </div>
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <div class="dots">
+        <script>
+          var slideIndex = 1;
+            function showSlides(n) {
+  var i;
+  const slides = document.querySelectorAll('.portfolio__slide');
+  const dots = document.querySelectorAll('.dot');
+  console.log(slides);
+  console.log(dots);
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+
+            // Next/previous controls
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  // Thumbnail image controls
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+    showSlides(slideIndex);
+        </script>
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+</div>
+
+      </div>
+    </div>
+  </div>
+</div>
+<div class="social-media-footer" id="social">
       <div class="social-media-headline">
         <h2>Follow me on social media :</h2>
       </div>
@@ -101,6 +181,10 @@
           </a>
         </li>
         </ul>
+        <div id="contact">
+        <h3>+33 7 69 45 47 53</h3>
+        <h3>sbalsom@protonmail.com</h3>
+        </div>
       </div>
 <!--  I would like to get this to work from another file ! -->
 <script>
@@ -117,7 +201,7 @@
 </script>
 <!-- I would like to get this to work from another file ! -->
 <script type="module">
-import Typed from './javascripts/plugins/typed.js';
+  import Typed from './javascripts/plugins/typed.js';
 
 var options = {
   strings: ["rails g model Sadie", "rails g controller sadies code sleep repeat", "rails g migration AddIsAGeekToSadie", "rails c", "s = Sadie.create!(is_a_geek:true)", "Sadie.code(project: 'whatever you want', within_reason: true(kinda))", "Sadie.sleep(duration: Date.today.end_of_day - Date.today.beginning_of_day, location: 'dreamland')", "Sadie.repeat", "exit"],
@@ -127,6 +211,8 @@ var options = {
 }
 
 var typed = new Typed(".typed", options);
+
+
 
 </script>
 

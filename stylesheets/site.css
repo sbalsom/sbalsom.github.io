@@ -1,13 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Poiret+One|Quicksand|Raleway+Dots|Raleway:500,700&display=swap");
-@import url("components/cards.css");
 @import url("components/banner.css");
-@import url("components/clouds.css");
 @import url("components/sliders.css");
 @import url("components/footers.css");
 @import url("components/headers.css");
-@import url("components/typewriter.css");
 @import url("components/content.css");
+@import url("components/cards.css");
 @import url("components/floating.css");
+@import url("components/carousel.css");
 .center-content {
   display: flex;
   flex-direction: column;
@@ -29,6 +28,9 @@ body {
 .mt-big {
   margin-top: 100px; }
 
+.mb-big {
+  margin-bottom: 100px; }
+
 h3 {
   font-family: 'Quicksand', sans-serif; }
 
@@ -43,9 +45,6 @@ p {
           perspective: 2px;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d; }
-
-.headline {
-  height: 20vh; }
 
 @media only screen and (max-width: 550px) {
   .display, .bio, .port-img {

@@ -1,7 +1,10 @@
 
 
-// bouncing images on load
+
+
+
 document.addEventListener('DOMContentLoaded', function() {
+  // bouncing images on load
   setTimeout(function() {
     document.getElementById('girl').classList.add('slideDown');
   }, 1500);
@@ -14,6 +17,9 @@ document.addEventListener('DOMContentLoaded', function() {
   setTimeout(function() {
     document.getElementById('rose').classList.add('driftDown');
   }, 2000);
+  // slider box
+
 
 }, false);
+
 

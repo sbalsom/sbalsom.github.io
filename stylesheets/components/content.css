@@ -1,6 +1,7 @@
 
+/*section styles*/
+
 .content {
-  height:2000px;
   background:#9cc6e6;
   -webkit-box-shadow:#9cc6e6 0 0 20px 20px;
           box-shadow:#9cc6e6 0 0 20px 20px;
@@ -9,35 +10,142 @@
   padding:100px 30px;
 }
 
-.content h2 {
+.content h2, .content h3, .content p, .content a {
   font-family: 'Quicksand', sans-serif;
-  color:white;
 }
 
-.large-text p {
-  color:white;
+
+.large-text p, .large-text a {
   font-size:20px;
+  text-align:left;
+  color:grey;
+}
+
+.content__flex-wrapper {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+}
+
+.content__right-half, .content__left-half {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin:20px;
+}
+
+.content h2 {
+  color:white;
+}
+
+/*right half styles*/
+
+.bio__text {
+  border: 3px solid white;
+  max-width: 540px;
+  border-radius: 20px;
+  padding: 20px;
+  background:white;
+  height: 590px;
+}
+
+.bio__text a {
+  color: #f7c78e;
+  text-decoration:none;
+
+}
+
+.bio__text a:hover {
+  color: #df96ba;
+  text-decoration:none;
+
+}
+
+
+/*left half styles*/
+
+.content__left-half {
+
+}
+
+#headshot {
+  background-image: url('../../images/headshot.jpg');
+  background-size:cover;
+}
+
+.portfolio {
+  border: 3px solid white;
+  border-radius:20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height:590px;
+}
+
+.portfolio h3 {
+  text-align: center;
+  color:grey;
+}
+
+.portfolio__featured-text, .portfolio__coming-soon-text {
+  max-width:500px;
+}
+
+.portfolio__coming-soon, .portfolio__featured {
+  background:white;
+  padding:20px;
+  border-radius:5px;
+  height:100%;
+}
+
+.portfolio__coming-soon h3, .portfolio__coming-soon p {
+  color:grey;
+}
+
+
+.portfolio__featured {
+  max-width: 500px;
+}
+
+.portfolio__featured h2 {
+  color:grey;
   text-align:center;
 }
 
-.bio {
-  width:500px;
+.portfolio__featured p {
+  color:grey;
 }
 
-#coming-soon {
-  text-align:center;
+.portfolio__coming-soon {
+  margin: 10px 0;
 }
 
-.card {
-  margin: 0 0 100px 0;
+.portfolio__image {
+  margin: 20px 0;
+  width:100%;
+  max-width:500px;
+  min-height:300px;
+  background-size:cover;
+  background-position:center;
+  border-radius:5px;
 }
 
-.flex-1 {
-  h2 {
-    font-size:30px;
-  }
-  p {
-    color:white;
-    font-size: 20px;
-  }
+#iwell {
+  background-image: url('../../images/iwell-1.png');
 }
+
+#swapit {
+  background-image:  url('../../images/swapit-png.png');
+}
+
+#instrurent {
+  background-image: url('../../images/instrurent.png');
+}
+
+#gem {
+  height: 200px;
+}
+
+/*linear-gradient(45deg, rgba(156,198,230,.8), rgba(255,0,0,0) 70.71%),
+*/

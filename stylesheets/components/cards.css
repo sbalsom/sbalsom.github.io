@@ -13,3 +13,7 @@
   border-radius:50%;
   height:inherit;
 }
+
+.circle h3, .circle p {
+  color:black;
+}
