@@ -42,8 +42,10 @@
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
     .social-media-footer {
-      height:11vh;
-      padding: 0 0 4vh 0;
+      padding: 0 0 10vh 0;
+      height: -webkit-fit-content;
+      height: -moz-fit-content;
+      height: fit-content;
       }
 
       .social-media-footer i {
@@ -56,12 +58,6 @@
       .social-media-headline {
         font-size:2em;
       }
-
-      .inline-list {
-        padding-bottom:10vh;
-      }
-
-
 
     }
 
