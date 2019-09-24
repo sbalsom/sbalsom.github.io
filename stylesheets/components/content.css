@@ -64,10 +64,6 @@
 
 /*left half styles*/
 
-.content__left-half {
-
-}
-
 #headshot {
   background-image: url('../../images/headshot.jpg');
   background-size:cover;
@@ -104,7 +100,6 @@
 }
 
 .portfolio__featured h2 {
-
   text-align:center;
 }
 .portfolio__featured-text p,  .portfolio__coming-soon-text p, .portfolio__featured h2, .portfolio__coming-soon h3, .portfolio h3 {
@@ -136,6 +131,20 @@
   background-position:center;
   border-radius:5px;
 }
+
+@media only screen
+  and (max-width: 550px) {
+    .portfolio__image {
+      background-size:cover;
+      min-height: 152px;
+    }
+    .portfolio {
+      height: -webkit-fit-content;
+      height: -moz-fit-content;
+      height: fit-content;
+    }
+  }
+
 
 #iwell {
   background-image: url('../../images/iwell-1.png');
