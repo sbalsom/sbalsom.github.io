@@ -1,9 +1,9 @@
 
 .floating-1 {
-   z-index:;
+   z-index:-1;
    position:absolute;
-   bottom:-10px;
-   left:0px;
+   top:-600px;
+   left:-45px;
 }
 
 .floating-2 {
