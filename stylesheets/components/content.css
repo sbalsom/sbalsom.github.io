@@ -116,6 +116,11 @@
   .portfolio__featured-text p,  .portfolio__coming-soon-text p {
     font-size: .85rem;
   }
+  .bio__text {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
 }
 
 .portfolio__coming-soon {

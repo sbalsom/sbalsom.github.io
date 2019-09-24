@@ -49,6 +49,14 @@
 @media only screen
   and (max-width: 550px) {
 
+  .social-media-headline h2 {
+    font-size:1.5rem;
+  }
+
+  .social-media-footer i {
+    font-size:45px;
+  }
+
   .header__headline .nav {
     visibility:hidden;
   }
