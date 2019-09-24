@@ -20,6 +20,9 @@
   display: flex;
   flex-direction: column; }
 
+.space-around {
+  justify-content: space-around; }
+
 body {
   font-family: 'Poiret One', sans-serif;
   background-color: white;

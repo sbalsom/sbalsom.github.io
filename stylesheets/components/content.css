@@ -16,7 +16,7 @@
 
 
 .large-text p, .large-text a {
-  font-size:20px;
+  font-size:1rem;
   text-align:left;
   color:grey;
 }
@@ -50,7 +50,7 @@
 }
 
 .bio__text a {
-  color: #f7c78e;
+  color: #d23d29;
   text-decoration:none;
 
 }
@@ -81,11 +81,11 @@
   flex-direction: column;
   align-items: center;
   height:590px;
+
 }
 
 .portfolio h3 {
   text-align: center;
-  color:grey;
 }
 
 .portfolio__featured-text, .portfolio__coming-soon-text {
@@ -99,22 +99,23 @@
   height:100%;
 }
 
-.portfolio__coming-soon h3, .portfolio__coming-soon p {
-  color:grey;
-}
-
-
 .portfolio__featured {
   max-width: 500px;
 }
 
 .portfolio__featured h2 {
-  color:grey;
+
   text-align:center;
 }
-
-.portfolio__featured p {
+.portfolio__featured-text p,  .portfolio__coming-soon-text p, .portfolio__featured h2, .portfolio__coming-soon h3, .portfolio h3 {
   color:grey;
+}
+
+@media only screen
+  and (max-width: 550px) {
+  .portfolio__featured-text p,  .portfolio__coming-soon-text p {
+    font-size: .85rem;
+  }
 }
 
 .portfolio__coming-soon {
