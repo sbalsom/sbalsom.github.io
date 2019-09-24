@@ -22,7 +22,7 @@
         <a href="#portfolio" class="">My Work</a>
         <a href="#about" class="">About</a>
         <a href="#contact" class="">Hire Me</a>
-    </div>
+      </div>
     </div>
   </div>
   <div class="banner center-content">
@@ -49,116 +49,102 @@
     <!-- under fold -->
   <div class="content center-content" id="content">
     <div class="content__flex-wrapper">
-      <div class="content__right-half bio">
-        <div class="bio__circle circle-wrapper">
-          <div class="circle center-content" id="about">
-            <img src="images/ruby.png" height="180px">
-          </div>
-        </div>
-        <h2>Ruby = <3 </h2>
-        <div class="bio__text large-text">
-          <div class="links flex space-around">
-            <a href="https://codesandbox.io/u/sbalsom" target=”_blank”>My CodeSandbox Profile</a>
-            <a href="https://leetcode.com/sbalsom/" target=”_blank” >My LeetCode Profile</a>
-          </div>
-          <p>I use Ruby on Rails and Middleman to deliver web apps and static websites. I'm obviously a fan of Javascript (see: all the craziness above), and I have added React and Vue.js to my frontend toolkit. You can find links to some of my projects on this page, as well as links to my other profiles.</p>
-          <p>Aside from building cool apps, playing with React components, and calling APIs, I love to write. I currently use my <a href="https://www.instagram.com/sadie__codes/">Instagram</a> as a platform to write about coding. <a href="#social">Follow me</a> there to see my series of Q & A posts for junior devs.</p>
-          <p>I've been spending my time post-bootcamp learning React and developing some side projects of my own. You can see some react components that I've been working on on my <a href="https://github.com/sbalsom" target="_blank">GitHub Profile</a> I love that in tech, there is a new challenge (and thus a new opportunity to learn!) every day.</p>
-          <p>I love to stay up-to-date with new libraries and the trends of the tech world, and I do some freelance technical writing which allows me to deep-dive into new concepts on a daily basis. As a former literature major, I value communication and research, and see these as the best problem-solving tools. I have an empathetic and positive attitude. I really think optimism is the key to success ! I hope to learn new things every day, even if sometimes I fail. Failure is good for your 🧠 !</p>
-        </div>
-      </div>
       <div class="content__left-half">
-        <div class="bio__circle circle-wrapper">
-          <div class="circle center-content" id="headshot">
-          </div>
-        </div>
         <h2>My Projects </h2>
-      <!--          begin slider  -->
-      <div class="portfolio slideshow-container">
+        <!--          begin slider  -->
+        <div class="portfolio slideshow-container">
         <!--           slider item one -->
-        <div class="portfolio__featured portfolio__slide fade" id="portfolio">
-          <h2>iWell</h2>
-          <a href="https://agile-atoll-41432.herokuapp.com/" target=”_blank” >
-            <div class="portfolio__image" id="iwell"></div>
-          </a>
-          <div class="portfolio__featured-text">
-            <p>iWell is an online therapy app, geared towards the European market. Built using Ruby on Rails, users can search for therapists, book an appointment, and place a video call to their therapist using Twilio. Built in 2 weeks by a team of four at Le Wagon bootcamp in Berlin.</p>
+          <div class="portfolio__featured portfolio__slide fade" id="portfolio">
+            <h2>iWell</h2>
+            <a href="https://agile-atoll-41432.herokuapp.com/" target=”_blank” >
+              <div class="portfolio__image" id="iwell"></div>
+            </a>
+            <div class="portfolio__featured-text">
+              <p>iWell is an online therapy app, geared towards the European market. Built using Ruby on Rails, users can search for therapists, book an appointment, and place a video call to their therapist using Twilio. Built in 2 weeks by a team of four at Le Wagon bootcamp in Berlin.</p>
+            </div>
           </div>
-        </div>
-        <!--           slider item 2 -->
-        <div class="portfolio__coming-soon portfolio__slide fade">
-          <h3>SwapIt</h3>
-          <a href="#">
-            <div class="portfolio__image" id="swapit"></div>
-          </a>
-          <div class="portfolio__coming-soon-text">
-            <p>SwapIt is a personal project I am working on, where users will be able to find clothing to swap with other users in their area. This project was born out of my frustration trying to find clothing swaps in Paris ! Currently in development.</p>
-          </div>
-        </div>
-        <!-- slider item 3  -->
-        <div class="portfolio__coming-soon portfolio__slide fade">
-          <h3>InstruRent</h3>
-          <a href="#">
-            <div class="portfolio__image" id="instrurent"></div>
-          </a>
-          <div class="portfolio__coming-soon-text">
-            <h3>InstruRent</h3>
-            <p>Instrurent was built in a week by a team of four at Le Wagon bootcamp. Users can locate instruments in their city to rent from other users. Currently forked for refactoring.</p>
-        </div>
-        </div>
-        <!--        slider item 4 -->
-        <div class="portfolio__coming-soon portfolio__slide fade">
-          <h3>Poetry Scrambler Gem</h3>
-          <a href="#">
-            <div class="portfolio__image center-content"><img src="images/gem-regular.svg" alt="ruby gem icon" id="gem"></div>
 
-          </a>
-          <div class="portfolio__coming-soon-text">
-            <p>The poetry scrambler gem will take a string and scramble it to poetic effect.</p>
+        <!-- slider item 2  -->
+          <div class="portfolio__coming-soon portfolio__slide fade">
+            <h3>Jamendo Radio</h3>
+            <a href="https://https://github.com/sbalsom/radio-player">
+              <div class="portfolio__image" id="jamendo"></div>
+            </a>
+            <div class="portfolio__coming-soon-text">
+              <h3>Jamendo Radio</h3>
+              <p>A simple React component using Jamendo API, allows users to search for albums in the Jamendo database, and download albums as zip files.</p>
+            </div>
           </div>
-        </div>
+        <!--           slider item 3 -->
+
+          <div class="portfolio__coming-soon portfolio__slide fade">
+            <h3>SwapIt</h3>
+            <a href="#">
+              <div class="portfolio__image" id="swapit"></div>
+            </a>
+            <div class="portfolio__coming-soon-text">
+              <p>SwapIt is a personal project I am working on, where users will be able to find clothing to swap with other users in their area. This project was born out of my frustration trying to find clothing swaps in Paris ! Currently in development.</p>
+            </div>
+          </div>
           <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
           <a class="next" onclick="plusSlides(1)">&#10095;</a>
-      </div>
-      <div class="dots">
+        </div>
         <script>
           var slideIndex = 1;
             function showSlides(n) {
-  var i;
-  const slides = document.querySelectorAll('.portfolio__slide');
-  const dots = document.querySelectorAll('.dot');
-  console.log(slides);
-  console.log(dots);
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-}
+              var i;
+              const slides = document.querySelectorAll('.portfolio__slide');
+              const dots = document.querySelectorAll('.dot');
+              console.log(slides);
+              console.log(dots);
+              if (n > slides.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";
+              }
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";
+              dots[slideIndex-1].className += " active";
+            }
 
-            // Next/previous controls
-  function plusSlides(n) {
-    showSlides(slideIndex += n);
-  }
-  // Thumbnail image controls
-  function currentSlide(n) {
-    showSlides(slideIndex = n);
-  }
-    showSlides(slideIndex);
+                        // Next/previous controls
+              function plusSlides(n) {
+                showSlides(slideIndex += n);
+              }
+              // Thumbnail image controls
+              function currentSlide(n) {
+                showSlides(slideIndex = n);
+              }
+                showSlides(slideIndex);
         </script>
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-  <span class="dot" onclick="currentSlide(4)"></span>
-</div>
-
+        <div class="dots">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+        <!-- <div class="bio__circle circle-wrapper">
+          <div class="circle center-content" id="headshot"></div>
+        </div> -->
       </div>
     </div>
+    <div class="content__right-half bio">
+<!--       <div class="bio__circle circle-wrapper">
+ -->        <!-- <div class="circle center-content" id="about">
+          <img src="images/ruby.png" height="180px">
+        </div> -->
+<!--       </div>
+ -->      <!-- <h2>Ruby = <3 </h2> -->
+      <div class="bio__text large-text">
+        <div class="links flex space-around">
+          <a href="https://codesandbox.io/u/sbalsom" target=”_blank”>My CodeSandbox Profile</a>
+          <a href="https://leetcode.com/sbalsom/" target=”_blank” >My LeetCode Profile</a>
+        </div>
+        <p>When I'm not using Ruby on Rails and Middleman to deliver web apps and static websites or playing with React and asynchronous javascript to fetch APIs, I like to unwind with a good book and a glass of wine.</p>
+        <p>I also love to write. I currently use my <a href="https://www.instagram.com/sadie__codes/">Instagram</a> as a platform to write about coding. <a href="#social">Follow me</a> there or on Twitter to see my series of Q & A posts for junior devs.I love that in tech, there is a new challenge (and thus a new opportunity to learn!) every day.</p>
+        </div>
+      </div>
   </div>
 </div>
 <div class="social-media-footer" id="social">
