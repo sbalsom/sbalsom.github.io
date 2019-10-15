@@ -152,8 +152,8 @@
   background-image: url('../../images/iwell-1.png');
 }
 
-#swapit {
-  background-image:  url('../../images/swapit-png.png');
+#astrology {
+  background-image:  url('../../images/astro.png');
 }
 
 #jamendo {
@@ -162,9 +162,3 @@
 
 }
 
-#gem {
-  height: 200px;
-}
-
-/*linear-gradient(45deg, rgba(156,198,230,.8), rgba(255,0,0,0) 70.71%),
-*/
