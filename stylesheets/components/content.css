@@ -163,6 +163,10 @@
 }
 
 #moon {
-    background-image: url('../../images/moon-void.png');
+  background-image: url('../../images/moon-void.png');
 
+}
+
+#dictionary {
+  background-image: url('../../images/dictionary.png');
 }
