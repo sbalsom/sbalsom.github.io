@@ -1,28 +1,27 @@
-
 .floating-1 {
-   z-index:-1;
-   position:absolute;
-   top:-600px;
-   left:-45px;
+  z-index: -1;
+  position: absolute;
+  top: 192px;
+  left: -45px;
 }
 
 .floating-2 {
-   z-index:2;
-   position:absolute;
-   top:200px;
-   right:100px;
+  z-index: 2;
+  position: absolute;
+  top: 200px;
+  right: 100px;
 }
 
 .floating-3 {
-   position:absolute;
-   top:70vh;
-   right:0;
+  position: absolute;
+  top: 70vh;
+  right: 0;
 }
 
-
-@media only screen
-  and (max-width: 550px) {
-  .floating-1, .floating-2, .floating-3 {
+@media only screen and (max-width: 550px) {
+  .floating-1,
+  .floating-2,
+  .floating-3 {
     visibility: hidden;
   }
 }

@@ -14,192 +14,133 @@
   </head>
   <body>
     <div class="site-container">
+  <header>
   <div class="header">
-    <div class="header__headline">
-      <h1>Sadie May</h1>
-      <h3>Fullstack Developer</h3>
-      <div class="nav">
-        <a href="#portfolio" class="">My Work</a>
-        <a href="#about" class="">About</a>
-        <a href="#contact" class="">Hire Me</a>
+      <div class="header__headline">
+        <h1>Sadie Balsom</h1>
+        <h3>Fullstack Developer</h3>
       </div>
-    </div>
   </div>
+</header>
+
   <div class="banner center-content">
-    <div class="display" id="info-box">
-      <div class="">
-        <i class="fas fa-terminal"></i>
-        <p class="typed"></p>
-      </div>
-    </div>
-    <div class="arrow-wrapper">
-      <a href="#content" id="about-button"><p><i class="fas fa-chevron-down"></i></p></a>
+  <div class="display" id="info-box">
+    <div>
+      <i class="fas fa-terminal"></i>
+      <p class="typed"></p>
     </div>
   </div>
-    <!--     bouncing things -->
+  <div class="floating-1" id="girl">
+    <img src="images/me.png" height="600px">
+  </div>
   <div class="floating-2" id="pom">
     <img src="images/pom.png" height="100px">
   </div>
   <div class="floating-3" id="rose">
     <img src="images/rose.png" height="250px">
   </div>
-    <!-- under fold -->
-  <div class="content center-content" id="content">
-    <div class="content__flex-wrapper">
-      <div class="floating-1" id="girl">
-    <img src="images/me.png" height="600px">
-  </div>
-      <div class="content__left-half">
-        <h2>My Projects </h2>
-        <!--          begin slider  -->
-        <div class="portfolio slideshow-container">
-        <!--           slider item one -->
-          <div class="portfolio__featured portfolio__slide fade" id="portfolio">
-            <h2>iWell</h2>
-            <a href="https://bewell-therapy.herokuapp.com/" target=”_blank” >
-              <div class="portfolio__image" id="iwell"></div>
-            </a>
-            <div class="portfolio__featured-text">
-              <p>iWell is an online therapy app, geared towards the European market. Built using Ruby on Rails, Active Record and PostGreSQL, with Pundit and Devise for authentification and authorization, logged in users can search for therapists, book an appointment, and place a video call to their therapist using Twilio. Built in 2 weeks by a team of four at Le Wagon bootcamp in Berlin.</p>
-            </div>
-          </div>
-
-        <!-- slider item 2  -->
-         <div class="portfolio__coming-soon portfolio__slide fade">
-            <h3>Astrology API</h3>
-            <a href="https://horoscope-api-site.herokuapp.com/" target=”_blank”>
-              <div class="portfolio__image" id="astrology" ></div>
-            </a>
-            <div class="portfolio__coming-soon-text">
-              <p>The Astrology API scrapes several publications across the web that have a weekly, daily, or monthly horoscopes section, and compiles the results in a in a public-facing API. The API is accessible to anyone with the url, and allows users to search for and sort horoscopes by publication, date, author name, keywords, sign, and mood.</p>
-            </div>
-          </div>
-      <!--           slider item 3 -->
-
-          <div class="portfolio__coming-soon portfolio__slide fade">
-            <h3>Is The Moon Void ?</h3>
-            <a href="http://www.isthemoonvoid.com/" target=”_blank”>
-              <div class="portfolio__image" id="moon" ></div>
-            </a>
-            <div class="portfolio__coming-soon-text">
-              <p>Inspired by <a href="http://isitfridayyet.net/" target=”_blank”>isitfridayyet.com</a>, the moon website is a handy tool for astrologers to tell whether the moon is currently void of course. It scrapes two calendars to check for ingresses and current sign the moon is in.</p>
-            </div>
-          </div>
-
-      <!--           slider item 4 -->
-          <div class="portfolio__coming-soon portfolio__slide fade">
-            <h3>Jamendo Radio</h3>
-            <a href="https://github.com/sbalsom/radio-player" target=”_blank”>
-              <div class="portfolio__image" id="jamendo"></div>
-            </a>
-            <div class="portfolio__coming-soon-text">
-              <h3>Jamendo Radio</h3>
-              <p>A simple React component using Jamendo API, allows users to search for albums in the Jamendo database, and download albums as zip files.</p>
-            </div>
-          </div>
-
- <!--           slider item 5 -->
-          <div class="portfolio__coming-soon portfolio__slide fade">
-            <h3>Python Dictionary App</h3>
-            <a href="https://github.com/sbalsom/python-dictionary-app" target=”_blank”>
-              <div class="portfolio__image" id="dictionary"></div>
-            </a>
-            <div class="portfolio__coming-soon-text">
-              <h3>Weird Dict</h3>
-              <p>The backend API for a simple dictionary app, written in Python using Flask. More info coming soon ! .</p>
-            </div>
-          </div>
-
-          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        </div>
-        <script>
-          var slideIndex = 1;
-            function showSlides(n) {
-              var i;
-              const slides = document.querySelectorAll('.portfolio__slide');
-              const dots = document.querySelectorAll('.dot');
-              console.log(slides);
-              console.log(dots);
-              if (n > slides.length) {slideIndex = 1}
-              if (n < 1) {slideIndex = slides.length}
-              for (i = 0; i < slides.length; i++) {
-                  slides[i].style.display = "none";
-              }
-              for (i = 0; i < dots.length; i++) {
-                  dots[i].className = dots[i].className.replace(" active", "");
-              }
-              slides[slideIndex-1].style.display = "block";
-              dots[slideIndex-1].className += " active";
-            }
-
-                        // Next/previous controls
-              function plusSlides(n) {
-                showSlides(slideIndex += n);
-              }
-              // Thumbnail image controls
-              function currentSlide(n) {
-                showSlides(slideIndex = n);
-              }
-                showSlides(slideIndex);
-        </script>
-        <div class="dots">
-          <span class="dot" onclick="currentSlide(1)"></span>
-          <span class="dot" onclick="currentSlide(2)"></span>
-          <span class="dot" onclick="currentSlide(3)"></span>
-        </div>
-        <!-- <div class="bio__circle circle-wrapper">
-          <div class="circle center-content" id="headshot"></div>
-        </div> -->
-      </div>
-    </div>
-    <div class="content__right-half bio">
-<!--       <div class="bio__circle circle-wrapper">
- -->        <!-- <div class="circle center-content" id="about">
-          <img src="images/ruby.png" height="180px">
-        </div> -->
-<!--       </div>
- -->      <!-- <h2>Ruby = <3 </h2> -->
-      <div class="bio__text large-text" id="about">
-        <div class="links flex space-around">
-          <a href="https://codesandbox.io/u/sbalsom" target=”_blank”>My CodeSandbox Profile</a>
-          <a href="https://leetcode.com/sbalsom/" target=”_blank” >My LeetCode Profile</a>
-        </div>
-        <p>When I'm not using Ruby on Rails and Middleman to deliver web apps and static websites or playing with React and Vue.js, I like to unwind with a good book and a glass of wine.</p>
-        <p>I also love to write. I currently use my <a href="https://www.instagram.com/sadie__codes/">Instagram</a> as a platform to write about coding. <a href="#social">Follow me</a> there or on Twitter to see my series of Q & A posts for junior devs. I love that in tech, there is a new challenge (and thus a new opportunity to learn!) every day.</p>
-        </div>
-      </div>
+  <div class="arrow-wrapper">
+    <a href="#content" id="about-button"><p><i class="fas fa-chevron-down"></i></p></a>
   </div>
 </div>
-<div class="social-media-footer" id="social">
-      <div class="social-media-headline">
-        <h2>Follow me on social media :</h2>
+
+
+  <div class="content center-content" id="content">
+    <h2>My Projects </h2>
+    <div class="content__flex-wrapper">
+       <carousel>
+  <div class="portfolio slideshow-container" id="portfolio">
+      <!--           slider item 1 -->
+    <div class="portfolio__coming-soon portfolio__slide fade">
+      <h3>Is The Moon Void ?</h3>
+      <a href="http://www.isthemoonvoid.com/" target=”_blank”>
+        <div class="portfolio__image" id="moon" ></div>
+      </a>
+      <div class="portfolio__coming-soon-text">
+        <p>Inspired by <a href="http://isitfridayyet.net/" target=”_blank”>isitfridayyet.com</a>, the moon website is a handy tool for astrologers to tell whether the moon is currently void of course. It scrapes two calendars to check for ingresses and current sign the moon is in.</p>
       </div>
-      <ul class="inline-list">
-        <li>
-          <a href="https://twitter.com/sadie__codes" target="_blank">
-            <i class="fab fa-twitter"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/sbalsom" target="_blank">
-            <i class="fab fa-github"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/sadie__codes/" target="_blank">
-            <i class="fab fa-instagram"></i>
-          </a>
-        </li>
-        </ul>
-        <div id="contact">
-        <h3>+33 7 69 45 47 53</h3>
-        <h3>sbalsom@protonmail.com</h3>
-        </div>
+    </div>
+            <!--           slider item 2 -->
+    <div class="portfolio__coming-soon portfolio__slide fade">
+      <h3>Hobby Stocks</h3>
+      <a href="https://github.com/sbalsom/hobby_stocks/" target=”_blank”>
+        <div class="portfolio__image" id="stocks" ></div>
+      </a>
+      <div class="portfolio__coming-soon-text">
+        <p>A hobby project that streams cryptocurrency prices from Tiingo websockets Api </p>
       </div>
+    </div>
+            <!--           slider item 3 -->
+
+    <div class="portfolio__coming-soon portfolio__slide fade">
+      <h3>Astrology API</h3>
+      <a href="https://horoscope-api-site.herokuapp.com/" target=”_blank”>
+        <div class="portfolio__image" id="astrology" ></div>
+      </a>
+      <div class="portfolio__coming-soon-text">
+        <p>The Astrology API scrapes several publications across the web that have a weekly, daily, or monthly horoscopes section, and compiles the results in a in a public-facing API. The API is accessible to anyone with the url, and allows users to search for and sort horoscopes by publication, date, author name, keywords, sign, and mood.</p>
+      </div>
+    </div>
+            <!--           slider item 4 -->
+    <div class="portfolio__coming-soon portfolio__slide fade">
+      <h3>Python Dictionary App</h3>
+      <a href="https://github.com/sbalsom/python-dictionary-app" target=”_blank”>
+        <div class="portfolio__image" id="dictionary"></div>
+      </a>
+      <div class="portfolio__coming-soon-text">
+        <h3>Weird Dict</h3>
+        <p>The backend API for a simple dictionary app, written in Python using Flask. More info coming soon ! .</p>
+      </div>
+    </div>
+        <!--  side nav -->
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+
+  <!--  bottom nav -->
+  <div class="dots">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+</carousel>
+
+    </div>
+  </div>
+
+ <div class="social-media-footer" id="social">
+  <div class="social-media-headline">
+    <h2>Follow me on social media :</h2>
+  </div>
+  <ul class="inline-list">
+    <li>
+      <a href="https://twitter.com/sadie__codes" target="_blank">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a href="https://github.com/sbalsom" target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.instagram.com/sadie__codes/" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </li>
+  </ul>
+  <div id="contact">
+    <h3>+49 176 4164 2459</h3>
+    <h3>sadielogsin@protonmail.com</h3>
+  </div>
+</div>
+
+
 <!--  I would like to get this to work from another file ! -->
 <script>
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  document.querySelectorAll('a[href^="#]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
         console.log(e);
@@ -225,6 +166,37 @@ var typed = new Typed(".typed", options);
 
 
 
+</script>
+<!-- I would like to get this to work from another file ! -->
+<script>
+    var slideIndex = 1;
+      function showSlides(n) {
+        var i;
+        const slides = document.querySelectorAll('.portfolio__slide');
+        const dots = document.querySelectorAll('.dot');
+        console.log(slides);
+        console.log(dots);
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+      }
+
+                  // Next/previous controls
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        // Thumbnail image controls
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+          showSlides(slideIndex);
 </script>
 
     <script type="module" src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>

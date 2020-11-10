@@ -1,41 +1,36 @@
-
 /*section styles*/
 
 .content {
-  background:#21211e;
-  -webkit-box-shadow:#21211e 0 0 20px 20px;
-          box-shadow:#21211e 0 0 20px 20px;
-  position:relative;
-  z-index:0;
-  padding:100px 30px;
+  background: #21211e;
+  -webkit-box-shadow: #21211e 0 0 20px 20px;
+          box-shadow: #21211e 0 0 20px 20px;
+  position: relative;
+  z-index: 0;
+  padding: 100px 30px;
 }
 
-.content h2, .content h3, .content p, .content a {
-  font-family: 'Quicksand', sans-serif;
+.content h2,
+.content h3,
+.content p,
+.content a {
+  font-family: "Quicksand", sans-serif;
 }
 
-
-.large-text p, .large-text a {
-  font-size:1rem;
-  text-align:left;
-  color:grey;
+.large-text p,
+.large-text a {
+  font-size: 1rem;
+  text-align: left;
+  color: grey;
 }
 
 .content__flex-wrapper {
-  display:flex;
-  flex-wrap: wrap;
-  justify-content:space-around;
-}
-
-.content__right-half, .content__left-half {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin:20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .content h2 {
-  color:white;
+  color: white;
 }
 
 /*right half styles*/
@@ -45,7 +40,7 @@
   max-width: 540px;
   border-radius: 20px;
   padding: 20px;
-  background:white;
+  background: white;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -53,48 +48,46 @@
 
 .bio__text a {
   color: #d23d29;
-  text-decoration:none;
-
+  text-decoration: none;
 }
 
 .bio__text a:hover {
   color: #df96ba;
-  text-decoration:none;
-
+  text-decoration: none;
 }
-
 
 /*left half styles*/
 
 #headshot {
-  background-image: url('../../images/headshot.jpg');
-  background-size:cover;
+  background-image: url("../../images/headshot.jpg");
+  background-size: cover;
 }
 
 .portfolio {
   border: 3px solid white;
-  border-radius:20px;
+  border-radius: 20px;
   padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  height:590px;
-
+  height: 590px;
 }
 
 .portfolio h3 {
   text-align: center;
 }
 
-.portfolio__featured-text, .portfolio__coming-soon-text {
-  max-width:500px;
+.portfolio__featured-text,
+.portfolio__coming-soon-text {
+  max-width: 500px;
 }
 
-.portfolio__coming-soon, .portfolio__featured {
-  background:white;
-  padding:20px;
-  border-radius:5px;
-  height:100%;
+.portfolio__coming-soon,
+.portfolio__featured {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  height: 100%;
 }
 
 .portfolio__featured {
@@ -102,16 +95,20 @@
 }
 
 .portfolio__featured h2 {
-  text-align:center;
+  text-align: center;
 }
-.portfolio__featured-text p,  .portfolio__coming-soon-text p, .portfolio__featured h2, .portfolio__coming-soon h3, .portfolio h3 {
-  color:grey;
+.portfolio__featured-text p,
+.portfolio__coming-soon-text p,
+.portfolio__featured h2,
+.portfolio__coming-soon h3,
+.portfolio h3 {
+  color: grey;
 }
 
-@media only screen
-  and (max-width: 550px) {
-  .portfolio__featured-text p,  .portfolio__coming-soon-text p {
-    font-size: .85rem;
+@media only screen and (max-width: 550px) {
+  .portfolio__featured-text p,
+  .portfolio__coming-soon-text p {
+    font-size: 0.85rem;
   }
   .bio__text {
     height: -webkit-fit-content;
@@ -126,47 +123,38 @@
 
 .portfolio__image {
   margin: 20px 0;
-  width:100%;
-  max-width:500px;
-  min-height:300px;
-  background-size:cover;
-  background-position:center;
-  border-radius:5px;
+  width: 100%;
+  max-width: 500px;
+  min-height: 300px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
 }
 
-@media only screen
-  and (max-width: 550px) {
-    .portfolio__image {
-      background-size:cover;
-      min-height: 152px;
-    }
-    .portfolio {
-      height: -webkit-fit-content;
-      height: -moz-fit-content;
-      height: fit-content;
-    }
+@media only screen and (max-width: 550px) {
+  .portfolio__image {
+    background-size: cover;
+    min-height: 152px;
   }
-
-
-#iwell {
-  background-image: url('../../images/iwell-1.png');
+  .portfolio {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
 }
 
 #astrology {
-  background-image:  url('../../images/astro.png');
+  background-image: url("../../images/astro.png");
 }
 
-#jamendo {
-  background-image: url('../../images/jamendo.png');
-  background-position:top;
-
+#stocks {
+  background-image: url("../../images/stocks.png");
 }
 
 #moon {
-  background-image: url('../../images/moon-void.png');
-
+  background-image: url("../../images/moon-void.png");
 }
 
 #dictionary {
-  background-image: url('../../images/dictionary.png');
+  background-image: url("../../images/dictionary.png");
 }
