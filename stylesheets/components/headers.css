@@ -10,10 +10,6 @@
   justify-content: space-between
 }
 
-
-
-
-
 .nav-text {
   margin: 0 10% 10% 0;
   font-size: 98px;
@@ -22,9 +18,7 @@
   color: #f593c7;
 }
 
-.nav-text:hover {
-  color: #f7c78e;
-}
+
 
 .header__headline {
   height: 20vh;
@@ -50,6 +44,15 @@
 
 .nav a {
   text-decoration:none;
+  color: rgb(241, 77, 165);
+}
+.nav a:visited {
+  text-decoration:none;
+  color: pink;
+}
+
+.nav a:hover {
+  color: #f7c78e;
 }
 
 @media only screen and (max-width: 550px) {
