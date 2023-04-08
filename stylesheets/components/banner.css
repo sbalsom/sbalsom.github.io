@@ -10,11 +10,6 @@
   padding-top:180px;
 }
 
-.banner a {
-  color:#8a8a9c;
-  font-size:40px;
-}
-
 .arrow-wrapper {
   position:absolute;
   top:90vh;
@@ -24,6 +19,59 @@
   padding: 20px;
   background:white;
   height:250px;
-  width:400px;
+  width:450px;
   border-radius:20px;
+}
+
+.banner-poetry {
+  height: 150vh;
+  background: url('../../images/clouds3.jpg');
+  background-size:cover;
+  position:relative;
+  -webkit-transform: translateZ(-2px) scale(2);
+          transform: translateZ(-2px) scale(2);
+  z-index: -1;
+  padding-top:180px;
+}
+
+.display-poetry {
+  padding: 20px;
+  background:white;
+  margin-top:30px;
+  width:450px;
+  border-radius:20px;
+  color: grey;
+  font-family:'Courier New', Courier, monospace
+}
+
+.poetry-list li {
+  list-style: none;
+  display:flex;
+  flex-direction: column;
+  margin: 20px 20px 20px 0px;
+  padding-bottom: 20px;
+  border-bottom: grey 0.5px solid;
+}
+
+.display-poetry a {
+  color: rgb(241, 77, 165);
+  text-decoration: none;
+} 
+.display-poetry a:visited {
+   color: pink;
+} 
+
+.poem-title {
+  font-weight: 500;
+  font-size: 17px;
+  color: black;
+}
+
+.review-title {
+font-size: 14px;
+}
+
+.poem-extra {
+  font-size: 14px;
+  color: grey;
 }

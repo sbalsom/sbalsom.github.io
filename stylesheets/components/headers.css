@@ -7,7 +7,12 @@
   padding-bottom: 15px;
   padding-left: 5vh;
   z-index: 999;
+  justify-content: space-between
 }
+
+
+
+
 
 .nav-text {
   margin: 0 10% 10% 0;
@@ -39,8 +44,12 @@
 }
 .header__headline .nav {
   position: absolute;
-  top: 113px;
-  width: 100%;
+  bottom: 20px;
+  font-size: 14px;
+}
+
+.nav a {
+  text-decoration:none;
 }
 
 @media only screen and (max-width: 550px) {
@@ -52,20 +61,16 @@
     font-size: 45px;
   }
 
-  .header__headline .nav {
-    visibility: hidden;
-  }
 
   .header__headline h1 {
     text-align: center;
   }
 
-  .header__headline h3 {
-  }
 
-  .header {
+
+  /* .header {
     height: 100px;
-  }
+  } */
 
   .header a {
     margin: 0;

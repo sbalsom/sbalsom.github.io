@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Use the title from a page's frontmatter if it has one -->
+    <title>Sadie Balsom - Poet</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  <script src="https://kit.fontawesome.com/4f87db517d.js"></script>
+    <link href="stylesheets/site.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="site-container">
+  <header>
+  <div class="header">
+      <div class="header__headline">
+        <h1>Sadie Balsom</h1>
+        <h3>Poet</h3>
+        <div class="nav"><a href="./index.html">(I also write code)</a></div>
+        
+          <!-- <div id="rose">
+            <img src="images/rose.png" height="250px">
+          </div> -->
+      </div>
+      <!-- <div id="pom">
+        <img src="images/pom.png" height="100px">
+      </div> -->
+  </div>
+</header>
+
+  <div class="banner-poetry center-content">
+  <div class="display-poetry">
+    <div>
+      <i class="fas fa-terminal"></i>
+      <p>
+        <ul class="poetry-list">
+            <li>
+                <div class="poem-title">Who will I be buried with</div>
+                <div class="review-title">forthcoming in <i>Soft Eis Magazine (2023)</i></div>
+            </li>
+         
+            <li>
+                <div class="poem-title">Dream in which a baby happens</div>
+                <div class="review-title"><a href="https://maryajournalofnewwriting.wordpress.com/">Mary: A Journal of New Writing</a> (2018)</div> 
+                <div class="poem-extra">Read <a href="http://oregonpoeticvoices.org/poet/483/">here</a></div>
+            </li>
+        
+            <li>
+                <div class="poem-title">Narcissus, very dull with complaining </div>
+                <div class="review-title"><a href="https://www.timberlinereview.com/issue-7/">Timberline review</a> (2018)</div>
+                <div class="poem-extra">Purchase a copy <a href="https://www.biblio.com/book/timberline-review-issue-7-2018-volume/d/1312500008">here</a></div>
+            </li>
+          
+            <li>
+                <div class="poem-title">Self Portrait With Fruit and Implement</div>
+                <div class="review-title"><a href="https://autumnskypoetrydaily.com/2016/04/14/self-portrait-with-fruit-implement-by-sara-balsom/">Autumn Sky Daily Poetry</a> (2016)</div>
+            </li>
+          
+            <li>
+                <div class="poem-title">Speaking to her sadness in the fields</div>
+                <div class="review-title"><a href="http://oregonpoeticvoices.org/poet/483/">Oregon Poetic Voices</a> (2014)</div>
+            </li>      
+        </ul>
+    </p>
+    </div>
+  </div>
+  
+
+  <div class="arrow-wrapper">
+    <a href="#content" id="about-button"><p><i class="fas fa-chevron-down"></i></p></a>
+  </div>
+</div>
+
+
+
+ <div class="social-media-footer" id="social">
+  <div class="social-media-headline">
+    <h2>Follow me on GitHub :</h2>
+  </div>
+  <ul class="inline-list">
+    <li>
+      <a href="https://github.com/sbalsom" target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  </ul>
+  <div id="contact">
+    <h3>sadielogsin@gmail.com</h3>
+  </div>
+</div>
+
+
+<!--  I would like to get this to work from another file ! -->
+<script>
+  document.querySelectorAll('a[href^="#]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        console.log(e);
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
+</script>
+
+
+  </body>
+</html>

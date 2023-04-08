@@ -1,3 +1,28 @@
+#girl {
+  visibility:hidden;
+}
+
+#pom {
+  /* visibility: hidden; */
+/* z-index: 2; */
+/* position: absolute; */
+/* top: 200px;
+right: 100px; */
+margin-top: 5vw;
+margin-right: 10vw;
+}
+
+#info-box {
+  visibility: hidden;
+}
+
+#rose {
+  /* visibility: hidden; */
+  position: absolute;
+  top: 70vh;
+  right: 0;
+}
+
 .floating-1 {
   z-index: -1;
   position: absolute;
@@ -5,18 +30,7 @@
   left: -45px;
 }
 
-.floating-2 {
-  z-index: 2;
-  position: absolute;
-  top: 200px;
-  right: 100px;
-}
 
-.floating-3 {
-  position: absolute;
-  top: 70vh;
-  right: 0;
-}
 
 @media only screen and (max-width: 550px) {
   .floating-1,
