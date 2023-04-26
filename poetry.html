@@ -8,7 +8,7 @@
     <!-- Use the title from a page's frontmatter if it has one -->
     <title>Sadie Balsom - Poet</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-  <script src="https://kit.fontawesome.com/4f87db517d.js"></script>
+   <script src="https://kit.fontawesome.com/4f87db517d.js"></script>
     <link href="stylesheets/site.css" rel="stylesheet" />
   </head>
   <body>
@@ -19,14 +19,7 @@
         <h1>Sadie Balsom</h1>
         <h3>Poet</h3>
         <div class="nav"><a href="./index.html">(I also write code)</a></div>
-        
-          <!-- <div id="rose">
-            <img src="images/rose.png" height="250px">
-          </div> -->
       </div>
-      <!-- <div id="pom">
-        <img src="images/pom.png" height="100px">
-      </div> -->
   </div>
 </header>
 
@@ -61,6 +54,14 @@
               <div class="poem-title">The ash tree brings you a sister</div>
               <div class="review-title">American Academy of Poets Award, Lewis & Clark College (2014)</div>
            </li>
+           <li>
+            <div class="poem-title">Dream in which I curate my childhood</div>
+            <div class="review-title"></div>
+          </li>
+          <li>
+            <div class="poem-title">Romance in code</div>
+            <div class="review-title"></div>
+          </li>
                   
         </ul>
     </p>
@@ -91,22 +92,5 @@
     <h3>sadielogsin@gmail.com</h3>
   </div>
 </div>
-
-
-<!--  I would like to get this to work from another file ! -->
-<script>
-  document.querySelectorAll('a[href^="#]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        console.log(e);
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-        });
-    });
-});
-
-</script>
-
-
   </body>
 </html>
