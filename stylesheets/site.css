@@ -8,11 +8,9 @@
 @import url("components/floating.css");
 @import url("components/carousel.css");
 
-.center-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
+.under-nav {
+  margin: 310px auto 0 auto;
+}
 
 .flex {
   display: flex; }
