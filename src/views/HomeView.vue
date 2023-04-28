@@ -1,13 +1,45 @@
 <script>
+import { ref } from 'vue'
 export default {
-  
+  setup() {
+    const slideIndex = ref(1)
+
+    // expose to template and other options API hooks
+    return {
+      slideIndex
+    }
+  },
   mounted() {
     console.log(`the component is now mounted.`)
-    this.printGreeting()
+    this.showSlide(this.slideIndex)
   },
   methods: {
-    printGreeting() {
-      console.log('greeting');
+    showSlide(n) {
+    console.log(n);
+      var i;
+    const slides = document.querySelectorAll('.portfolio__slide');
+    const dots = document.querySelectorAll('.dot');
+    if (n > slides.length) {this.slideIndex = 1}
+    if (n < 1) {this.slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[this.slideIndex-1].style.display = "block";
+    dots[this.slideIndex-1].className += " active";
+
+     
+    },
+    plusSlides(n) {
+     this.showSlide(this.slideIndex += n);
+    },
+    prev() {
+      this.plusSlides(-1)
+    },
+    next() {
+      this.plusSlides(1)
     }
   }
 }
@@ -60,8 +92,8 @@ export default {
             </div>
         </div>
         <!--  side nav -->
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <a class="prev" @click="prev()">&#10094;</a>
+        <a class="next" @click="next()" >&#10095;</a>
         </div>
 
         <!--  bottom nav -->
